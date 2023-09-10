@@ -284,6 +284,7 @@ section .title::after {
   content: "what i've done";
 }
 .projects .serv-content .card {
+  height: 270px;
   width: calc(33% - 20px);
   background: #222;
   text-align: center;
@@ -317,6 +318,89 @@ section .title::after {
 }
 
 
+/* skills section styling */
+.skills .column.left {
+  flex: 100vw; 
+  text-align: center;
+  margin-bottom: 20px;
+
+
+}
+
+.skills .column.left #skillContent {
+  flex: 1; 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center; 
+}
+
+
+.skills .column.left .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.skills .column.left p {
+    text-align: center;
+}
+
+.skills .column.left a {
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+.skills .column.left a:hover {
+    color: crimson;
+    background: none;
+}
+
+.skills .title::after {
+  content: "what i know";
+}
+
+.skills .column.left {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+.skills .column.left  .card {
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    flex: calc(43.33% - 10px); 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0; 
+}
+
+.skills .column.left  .card:nth-child(3n) {
+    margin-right: 0; 
+}
+
+.skills .column.left  .card:hover {
+    transform: scale(1.02);
+    background-color: crimson;
+}
+
+
 /* get more button */
 .get-more{
   cursor: pointer !important;
@@ -335,81 +419,6 @@ section .title::after {
   background-color:transparent;
   border: 1px solid crimson;
   color: crimson;
-}
-
-/* skills section styling */
-
-.skills .title::after {
-  content: "what i know";
-}
-.skills .skills-content .column {
-  width: calc(50% - 30px);
-}
-.skills .skills-content .left .text {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-.skills .skills-content .left p {
-  text-align: justify;
-}
-.skills .skills-content .left a {
-  display: inline-block;
-  background: crimson;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 8px 16px;
-  margin-top: 20px;
-  border-radius: 6px;
-  border: 2px solid crimson;
-  transition: all 0.3s ease;
-}
-.skills .skills-content .left a:hover {
-  color: crimson;
-  background: none;
-}
-.skills .skills-content .right .bars {
-  margin-bottom: 15px;
-}
-.skills .skills-content .right .info {
-  display: flex;
-  margin-bottom: 5px;
-  align-items: center;
-  justify-content: space-between;
-}
-.skills .skills-content .right span {
-  font-weight: 500;
-  font-size: 18px;
-}
-.skills .skills-content .right .line {
-  height: 5px;
-  width: 100%;
-  background: lightgrey;
-  position: relative;
-}
-.skills .skills-content .right .line::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: crimson;
-}
-.skills-content .right .java::before {
-  width: 80%;
-}
-.skills-content .right .c::before {
-  width: 70%;
-}
-.skills-content .right .kotlin::before {
-  width: 60%;
-}
-.skills-content .right .html_css::before {
-  width: 80%;
-}
-.skills-content .right .mysql::before {
-  width: 70%;
 }
 
 /* contact section styling */
