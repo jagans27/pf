@@ -95,54 +95,54 @@ document.addEventListener("DOMContentLoaded", function () {
   const projects = [
     {
       name: "NVeg App",
-      link: "https://github.com/jagan0227/NVeg_App",
+      link: "https://github.com/jagans27/NVeg_App",
       iconClass: "fa fa-egg",
       description:
         "(ONGOING) An app that used to buy fresh non-veg products like fish, chicken, mutton, and more.",
     },
     {
       name: "Blind Master App",
-      link: "https://github.com/jagan0227/Blind_Master_App",
+      link: "https://github.com/jagans27/Blind_Master_App",
       iconClass: "fa fa-blind",
       description:
         "An app that helps blind people hear what's in front of them.",
     },
     {
       name: "Track My Wheels",
-      link: "https://github.com/jagan0227/Track_My_Wheels",
+      link: "https://github.com/jagans27/Track_My_Wheels",
       iconClass: "fa fa-bus",
       description: "Bus Tracking app which will work on GPS and Google Map.",
     },
     {
       name: "Book Hub App",
-      link: "https://github.com/jagan0227/Book-Hub-Android-App",
+      link: "https://github.com/jagans27/Book-Hub-Android-App",
       iconClass: "fa fa-book",
       description:
         "An Android application that shows the price of a book along with a description of the book.",
     },
     {
       name: "Home Inventory Manager",
-      link: "https://github.com/jagan0227/Home-Inventory-Manager",
+      link: "https://github.com/jagans27/Home-Inventory-Manager",
       iconClass: "fas fa-home",
       description:
         "An application helps you keep track of your home's valuables.",
     },
     {
       name: "Public Chat System",
-      link: "https://github.com/jagan0227/Public-Chat-System",
+      link: "https://github.com/jagans27/Public-Chat-System",
       iconClass: "fas fa-sms",
       description:
         "This is a website where you can chat anonymously with the public.",
     },
     {
       name: "Social Networking",
-      link: "https://github.com/jagan0227/Social-Networking",
+      link: "https://github.com/jagans27/Social-Networking",
       iconClass: "fas fa-quote-left",
       description: "A web application that connects people around the world.",
     },
     {
       name: "ATM Simulation System",
-      link: "https://github.com/jagan0227/ATM-Simulation-System",
+      link: "https://github.com/jagans27/ATM-Simulation-System",
       iconClass: "fa fa-credit-card",
       description: "An application that simulates the work of an ATM.",
     },
