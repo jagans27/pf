@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "MongoDB",
     "Firebase",
     "Jetpack Compose",
-
+    "Flutter"
     // Add more skills as needed
   ];
 
