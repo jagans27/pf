@@ -94,11 +94,11 @@ function submitMail() {
 document.addEventListener("DOMContentLoaded", function () {
   const projects = [
     {
-      name: "NVeg App",
-      link: "https://github.com/jagans27/NVeg_App",
-      iconClass: "fa fa-egg",
+      name: "SyncTasks",
+      link: "https://github.com/jagans27/SyncTasks",
+      iconClass: "fa fa-list-check",
       description:
-        "(ONGOING) An app that used to buy fresh non-veg products like fish, chicken, mutton, and more.",
+        "An app that is used to manage tasks with AI score, images, and biometrics",
     },
     {
       name: "Blind Master App",
