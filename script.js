@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       name: "SyncTasks",
       link: "https://github.com/jagans27/SyncTasks",
-      iconClass: "fa fa-list-check",
+      iconClass: "fa-solid fa-list-check",
       description:
         "An app that is used to manage tasks with AI score, images, and biometrics",
     },
